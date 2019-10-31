@@ -1,0 +1,58 @@
+body{
+    background: url(/assets/images/clown.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+h2{
+    font-family: 'Creepster', cursive;!important;
+    font-size:50px;
+    color:red;
+}
+
+.card-header {
+    padding-left:1%;
+    padding-right:1%;
+}
+
+.card {
+    padding:12%;
+    margin:17%;
+    opacity:60%;
+    width:70%;
+    border-radius: 1.5rem;
+    background-color: #E0E0E0;
+    box-shadow: 0 4px 8px 0 #E0E0E0;
+    transition: 0.3s;
+    box-shadow: 0 14px 28px #E0E0E0, 0 10px 10px #E0E0E0;
+}
+
+.card:hover{
+    background-color:#BEBEBE;
+    box-shadow: 0 8px 16px 0 #BEBEBE;
+    cursor:pointer;
+    opacity:100%;
+}
+
+.card-body{
+    background-color: #E0E0E0;
+    box-shadow: 0 4px 8px 0 #E0E0E0;
+    transition: 0.3s;
+}
+
+#small-list{
+    background-color:#E0E0E0;
+    box-shadow: 0 4px 8px 0 #E0E0E0;
+    transition: 0.3s;
+}
+
+#small-list:hover{
+    background-color:#BEBEBE;
+    box-shadow: 0 8px 16px 0 #BEBEBE;
+    cursor:pointer;
+    opacity:100%;
+}
+
+.fontLink {
+    font-size:20px;
+}

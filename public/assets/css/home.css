@@ -1,0 +1,42 @@
+body {
+    background: url(/assets/images/thumb-1920-238474.jpg) no-repeat center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.div-titre-home{
+    font-family : 'creepster', cursive;
+    color: red;
+    display: flex;
+    justify-content: center;
+    padding-top : 20% ;
+    font-size: 650%;
+}
+
+.titre-home {
+    text-align: center;
+}
+
+.buttonHome {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top : 10rem;
+}
+
+.btn-outline-danger {
+    font-family : 'creepster', cursive;
+    color: red;
+    border-color: red;
+    height: 100%;
+    background-color: rgba(255,255,255,0.4);
+}
+
+.btn-outline-danger:hover{
+    background-color: red;
+    border-color: red;
+}
