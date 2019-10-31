@@ -1,6 +1,5 @@
 <?php
 
-
 namespace App\Controller;
 
 class WeaponController extends AbstractController
