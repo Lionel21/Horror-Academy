@@ -1,10 +1,3 @@
-@import "clan.css";
-
-@import "track.css";
-@import "film.css";
-@import "home.css";
-@import "nav.css";
-
 h1, h2, h3, h4 {
     font-family: 'Creepster', cursive;
 }
