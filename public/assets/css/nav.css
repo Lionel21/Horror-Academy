@@ -1,0 +1,33 @@
+.navbar-brand {
+    font-family: 'creepster', cursive;
+    color: #d60a0a;
+    font-size: 250%;
+    margin-right: 5%;
+}
+.navbar-brand:hover{
+    color:red;
+}
+.navbar .navbar-collapse{
+    font-family: 'creepster', cursive;
+    font-size: 175%;
+}
+.navbar-nav{
+    width: 100%;
+}
+.nav-item{
+    text-align: center;
+    margin-right: 3%;
+}
+.nav-link{
+    color: #d60a0a;
+}
+.nav-link:hover{
+    color: red;
+}
+.navbar-toggler{
+    width: 20%;
+}
+.burger-icon{
+    display: flex;
+    float: right;
+}
