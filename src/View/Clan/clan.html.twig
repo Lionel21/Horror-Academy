@@ -1,5 +1,90 @@
 {% extends 'layout.html.twig' %}
 
 {% block content %}
-
+<section class="bodyClan">
+    <div class="jumbotron jumbotron-fluid d-flex justify-content-center">
+        <div class="container">
+            <h1 class="display-4">And know... choose your F*** monster !</h1>
+            <p class="lead">You have the choice among these killing clans : which one suits your murderous and horrible desires ?</p>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="d-flex justify-content-around col-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{ monclan.picture }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ monclan.name }}</h5>
+                        <a href="../Track/track.html.twig" class="btn btn-danger">I am very violent !</a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-around col-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{ monclanDeux.picture }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ monclanDeux.name }}</h5>
+                        <a href="../Track/track.html.twig" class="btn btn-danger">I am sneaky and very hungry</a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-around col-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{ monclanTrois.picture }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ monclanTrois.name }}</h5>
+                        <a href="../Track/track.html.twig" class="btn btn-danger">Be aware, I've got no limit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-around col-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{ monclanQuatre.picture }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ monclanQuatre.name }}</h5>
+                        <a href="../Track/track.html.twig" class="btn btn-danger">You won't be disappointed...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex justify-content-around col-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{ monclanCinq.picture }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ monclanCinq.name }}</h5>
+                        <a href="../Track/track.html.twig" class="btn btn-danger">Go frantic and dirty</a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-around col-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{ monclanSix.picture }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ monclanSix.name }}</h5>
+                        <a href="../Track/track.html.twig" class="btn btn-danger">I will possess your soul</a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-around col-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{ monclanSept.picture }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ monclanSept.name }}</h5>
+                        <a href="../Track/track.html.twig" class="btn btn-danger">Be carrefull, it will cuts...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-around col-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{ monclanHuit.picture }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ monclanHuit.name }}</h5>
+                        <a href="../Track/track.html.twig" class="btn btn-danger">My teeth are ready</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 {% endblock %}
