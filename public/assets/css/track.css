@@ -1,4 +1,4 @@
-body{
+.backgroundTrack{
     background: url(/assets/images/clown.jpg) no-repeat center center fixed;
     background-size: cover;
 
@@ -15,7 +15,7 @@ h2{
     padding-right:1%;
 }
 
-.card {
+ #trackCard{
     padding:12%;
     margin:17%;
     opacity:60%;
@@ -27,14 +27,14 @@ h2{
     box-shadow: 0 14px 28px #E0E0E0, 0 10px 10px #E0E0E0;
 }
 
-.card:hover{
+#trackCard:hover{
     background-color:#BEBEBE;
     box-shadow: 0 8px 16px 0 #BEBEBE;
     cursor:pointer;
     opacity:100%;
 }
 
-.card-body{
+#trackBody{
     background-color: #E0E0E0;
     box-shadow: 0 4px 8px 0 #E0E0E0;
     transition: 0.3s;
