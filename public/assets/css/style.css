@@ -4,6 +4,7 @@
 @import "film.css";
 @import "home.css";
 @import "nav.css";
+@import "weapon.css";
 
 h1, h2, h3, h4 {
     font-family: 'Creepster', cursive;

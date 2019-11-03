@@ -11,7 +11,7 @@ class FilmController extends AbstractController
 {
     public function index()
     {
-        return $this->twig->render('Film/film.html.twig');
+        return $this->twig->render('Film/show.html.twig');
 
         $client = HttpClient::create();
         $response = $client->request('GET', 'https://hackathon-wild-hackoween.herokuapp.com/movies');

@@ -2,4 +2,79 @@
 
 {% block content %}
 
+    <section class="backweapon">
+        <div class="jumbotron jumbotron-fluid text-danger" >
+
+            <div class="container ">
+                <h1 class="display-4 " align="center">CONGRATULATION MONSTER !!!  </h1>
+                <h2 class="display-4 " align="center">You've got 5000 POINTS!!!!.</h2>
+                <h3 class="display-4 " align="center" > Choose your gift</h3>
+
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-4">
+                    <div class="card bg-danger" style="width: 18rem;">
+                        <img src="../../../assets/images/chain_saw.jpeg" class="card-img-top" alt="...">
+                        {% set chain = 1500 %}
+                        <p class="text-white">{{ chain }} points</p>
+                        <div class="card-body">
+                            <h5 class="card-title">CHAIN SAW</h5>
+
+                            <a href="../Track/track" class="btn btn-dark">NEXT TRACK</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <div class="col-4 offset-4">
+                    <div class="card bg-danger" style="width: 18rem;">
+                        <img src="../../../assets/images/cudgel.jpeg" class="card-img-top" alt="...">
+                        <p class="text-white">3500 points</p>
+                        <div class="card-body">
+                            <h5 class="card-title">CUDGEL</h5>
+                            {% set cudgel = 35  %}
+                            <a href="../Track/track" class="btn btn-dark">NEXT TRACK</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <div class="card bg-danger" style="width: 18rem;">
+                        <img src="../../../assets/images/knife.jpeg" class="card-img-top" alt="...">
+                        <p class="text-white">3000 points</p>
+                        <div class="card-body">
+                            <h5 class="card-title">KNIFE</h5>
+                            <a href="../Track/track" class="btn btn-dark">NEXT TRACK</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 offset-4">
+                    <div class="card bg-danger" style="width: 18rem;">
+                        <img src="../../../assets/images/mace.jpeg" class="card-img-top" alt="...">
+                        <p class="text-white">2500 points</p>
+                        <div class="card-body">
+                            <h5 class="card-title">MACE</h5>
+                            <a href="../Track/track" class="btn btn-dark">NEXT TRACK</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="">
+            <button type="button" class="btn btn-danger btn-lg btn-block">
+                <a href="../Clan/clan"> Retour</a>
+            </button>
+
+        </div>
+    </section>
+
 {% endblock %}

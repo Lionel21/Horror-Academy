@@ -8,7 +8,7 @@ class TrackController extends AbstractController
 {
     public function track()
     {
-        return $this->twig->render('Track/track.html.twig');
+        //return $this->twig->render('Track/track.html.twig');
 
         $client = HttpClient::create();
         $response = $client->request('GET', 'https://hackathon-wild-hackoween.herokuapp.com/movies');

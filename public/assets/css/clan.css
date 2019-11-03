@@ -28,7 +28,7 @@ p {
     color: white;
 }
 
-p, h1 {
+.jumbotron {
     animation-duration: 3s;
     animation-name: slidein;
 }

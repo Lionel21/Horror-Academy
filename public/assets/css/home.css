@@ -8,7 +8,7 @@ body {
     max-width: 100%;
 }
 
-.div-titre-home{
+.titre-home{
     font-family : 'creepster', cursive;
     color: red;
     display: flex;
